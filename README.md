@@ -1,4 +1,4 @@
-## Project_1
+## Project 1: Effects of Mask & Vaccine on Infection Rate
 This project will discuss COVID-19 related questions.
 
 As COVID-19 brokeout, the government decided to implement lockdown for an immediate outbreak of the high COVID-19 infection. However, this policy cannot be implemented for a long time. So, the government decided to advise the public to wear mask while outside and get vaccinated.
