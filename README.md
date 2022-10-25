@@ -27,15 +27,23 @@ In this regression analysis, we will see the test statistics and p-values to see
 ## Summary of Finding:
 We have found that infection rate of COVID were higher when population were wearing masks. We have also found that the vaccination helped decreasing the infection rate. However, when we did regression, the interaction value of both masks and vaccines is small, which means that there is no interaction.
 Mask Mandates: Mean cases value reported in case of no mask is less as compared to that wearing mask. The t-value from calculation and built-in function was found to be -5.568. Also, p << 0.05 so there is sufficient evidence to reject null hypothesis. So, we can say that both data set are not from same and there is difference between mask and no mask data set cases behavior. There was significant evidence to reject null hypothesis. 
+
 ![image](https://user-images.githubusercontent.com/112144648/197838355-a1aa4291-832e-4801-a1d7-4040bc3f2306.png)
+
 ![image](https://user-images.githubusercontent.com/112144648/197838454-0b01309d-5bbf-4d75-aa5a-f7b0aebf3b00.png)
+
 ![image](https://user-images.githubusercontent.com/112144648/197838181-2ca45778-088a-4df9-bb15-0a0d540aaabd.png)
 
 Vaccination: We selected specific dates where percentage of population vaccinated is zero and saved them as non-vaccinated group. Similarly, again, selected specific dates where the percentage of population vaccinated > 0.7 and saved them as vaccinated group. We have found that before vaccination, mean value of population infected is a lot higher than after vaccination. A clear decrease in rise in cases observed and density plot can be seen narrower as compared to the time when there was no vaccine.
+
 ![image](https://user-images.githubusercontent.com/112144648/197839059-1f122235-81bb-4d5b-a24a-b4d6d97c80f6.png)
+
 ![image](https://user-images.githubusercontent.com/112144648/197839100-78caf5a3-71f9-4e91-bae9-054ad800f043.png)
+
 ![image](https://user-images.githubusercontent.com/112144648/197839161-755fad90-e7eb-4092-8d08-e38fc6023831.png)
+
 Mask and Vaccination (Interaction Effect): For the regression analysis, data was obtained for a specified time range for each of state. With interaction term least square regression was performed. This includes population from 2019 estimate. To check whether this parameter in model is significant or not we will see its p-value. The data point was chosen in a way where we have maximum number of valid data points without NaN value. From this, we can see that intercept has p < 0.05 so it is insignificant in this mode. Also, interaction term p-value is way less than 0.05 and its coefficient is very small we can ignore this too and say that there is no interaction. Also, we could see here that the effect of mask is greater than vaccine.
+
 ![image](https://user-images.githubusercontent.com/112144648/197839314-cf41dbe4-287d-45bb-b07a-d0a6c3d68b3d.png)
 
 ## Recommendations:
